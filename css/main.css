@@ -1,0 +1,49 @@
+body{
+    margin: 0 auto;
+}
+
+.perfil{
+    background-color: #4169E1;
+    padding-top: 80px;
+}
+
+.perfil .foto-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil .foto-perfil img{
+    width: 180px;        
+}
+
+.perfil h3{
+    margin: 60px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+.perfil .meus-contatos .endereco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil .meus-contatos .email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil .meus-contatos .github{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil .meus-contatos .linkedn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
