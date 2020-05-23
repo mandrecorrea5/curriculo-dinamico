@@ -34,6 +34,8 @@ body{
     margin-bottom: 7%;
     font-family: 'Open Sans', sans-serif;
     font-size: 10pt;
+    padding-right: 8%;
+    letter-spacing: 3.5px;
 }
 
 .perfil .meus-contatos .endereco {
@@ -41,12 +43,15 @@ body{
     justify-content: center;
     align-items: center;
 }
+.perfil .meus-contatos .endereco i{
+    color: white;
+}
 
 .perfil .meus-contatos .endereco p {
-    font-size: 7pt;
+    font-size: 8pt;
     color: white;
     font-family: 'Open Sans', sans-serif;
-    margin-left: 40px; 
+    padding-left:15%; 
     padding-bottom: 7%;
 }
 
@@ -58,10 +63,11 @@ body{
 }
 
 .perfil .meus-contatos .email p {
-    font-size: 7pt;
+    font-size: 8pt;
     color: white;
     font-family: 'Open Sans', sans-serif; 
     padding-bottom: 4%;
+    padding-left: 3%;
 }
 
 
@@ -76,7 +82,7 @@ body{
     color: white;
     font-family: 'Open Sans', sans-serif; 
     padding-bottom: 0%;
-    padding-left: 48px;
+    padding-left: 15%;
 }
 
 .perfil .meus-contatos .linkedn p {
@@ -84,9 +90,37 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
-    padding-bottom: 4px;
- 
-    
+    padding-bottom: 2%;
+    font-size: 8pt;
+    padding-right: 12%;
+ }
+
+.perfil .habilidades h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-right: 17%;
+    letter-spacing: 3.5px;
 }
 
+.perfil .habilidade-group h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-left: 23%;
+    padding-bottom:6%; 
+    letter-spacing:3.5px;
+    font-size: 10pt;
+}
+
+.perfil .habilidade-group li{
+    color: white;
+    font-size: 8pt;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10%;
+    padding-left: 25%;
+}
+
+
+.perfil .habilidade-group ul{
+    list-style: ;
+}
 /*trabalhei até aqui*/
